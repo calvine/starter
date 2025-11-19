@@ -6,14 +6,14 @@ end
 
 table.insert(dap.configurations["go"], {
   type = "delve",
-  name = "Delve: Debug File",
+  name = "Delve: Debug Package",
   request = "launch",
   program = "${fileDirname}",
   cwd = "${workspaceFolder}",
 })
 table.insert(dap.configurations["go"], {
   type = "delve",
-  name = "Delve: Debug File With Arguments",
+  name = "Delve: Debug Package With Arguments",
   request = "launch",
   program = "${fileDirname}",
   cwd = "${workspaceFolder}",
